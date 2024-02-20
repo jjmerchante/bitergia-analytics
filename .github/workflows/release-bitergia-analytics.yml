@@ -328,6 +328,23 @@ jobs:
     secrets:
       access_token: ${{ secrets.BAP_BUILD_TOKEN }}
 
+  perceval-pontoon:
+    name: perceval-pontoon
+    needs:
+      - variables-job
+      - setup
+      - semverup
+    uses: ./.github/workflows/release-grimoirelab-component.yml
+    with:
+      git_email: ${{ needs.variables-job.outputs.git_email }}
+      git_name: ${{ needs.variables-job.outputs.git_name }}
+      release_candidate: ${{ needs.variables-job.outputs.release_candidate }}
+      module_name: 'perceval-pontoon'
+      module_repository: 'bitergia-analytics/grimoirelab-perceval-pontoon'
+      module_directory: 'perceval-pontoon'
+    secrets:
+      access_token: ${{ secrets.BAP_BUILD_TOKEN }}
+
   bap-elk-backends:
     name: bap-elk-backends
     needs:
@@ -336,6 +353,7 @@ jobs:
       - semverup
       - perceval-public-inbox
       - perceval-topicbox
+      - perceval-pontoon
     uses: ./.github/workflows/release-grimoirelab-component.yml
     with:
       git_email: ${{ needs.variables-job.outputs.git_email }}
@@ -345,7 +363,8 @@ jobs:
       module_repository: 'bitergia-analytics/bitergia-analytics-elk-backends'
       module_directory: 'bap-elk-backends'
       dependencies: "${{ needs.perceval-public-inbox.outputs.package_version }} \
-      ${{ needs.perceval-topicbox.outputs.package_version }}"
+      ${{ needs.perceval-topicbox.outputs.package_version }} \
+      ${{ needs.perceval-pontoon.outputs.package_version }}"
     secrets:
       access_token: ${{ secrets.BAP_BUILD_TOKEN }}
 
@@ -383,6 +402,7 @@ jobs:
       - radar-vis-plugin
       - perceval-public-inbox
       - perceval-topicbox
+      - perceval-pontoon
       - bap-elk-backends
       - sortinghat-openinfra
     steps:
@@ -420,6 +440,7 @@ jobs:
           radar_notes: "${{ needs.radar-vis-plugin.outputs.notes }}"
           perceval_public_inbox_notes: "${{ needs.perceval-public-inbox.outputs.notes }}"
           perceval_topicbox_notes: "${{ needs.perceval-topicbox.outputs.notes }}"
+          perceval_pontoon_notes: "${{ needs.perceval-pontoon.outputs.notes }}"
           bap_elk_backends_notes: "${{ needs.bap-elk-backends.outputs.notes }}"
           sortinghat_openinfra_notes: "${{ needs.sortinghat-openinfra.outputs.notes }}"
         run: |
@@ -457,6 +478,7 @@ jobs:
           $radar_notes
           $perceval_public_inbox_notes
           $perceval_topicbox_notes
+          $perceval_pontoon_notes
           $bap_elk_backends_notes
           $sortinghat_openinfra_notes
           $eof
@@ -476,6 +498,7 @@ jobs:
           notes_radar_vis_plugin: "${{ needs.radar-vis-plugin.outputs.notes }}"
           notes_perceval_public_inbox: "${{ needs.perceval-public-inbox.outputs.notes }}"
           notes_perceval_topicbox: "${{ needs.perceval-topicbox.outputs.notes }}"
+          notes_perceval_pontoon: "${{ needs.perceval-pontoon.outputs.notes }}"
           notes_bap_elk_backends: "${{ needs.bap-elk-backends.outputs.notes }}"
           notes_sortinghat_openinfra: "${{ needs.sortinghat-openinfra.outputs.notes }}"
         run: |
@@ -495,6 +518,7 @@ jobs:
           radar_vis_plugin
           perceval_public_inbox
           perceval_topicbox
+          perceval_pontoon
           notes_bap_elk_backends
           sortinghat_openinfra)
           
