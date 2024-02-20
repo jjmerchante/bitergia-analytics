@@ -1,5 +1,60 @@
 # Releases
 
+## Bitergia Analytics 0.17.0 - (2024-02-20)
+
+**New features:**
+
+ * GrimoireLab 0.21.0 upgrade\
+   This new version of GrimoireLab includes organization aliases in
+   SortingHat to avoid duplicates.
+
+
+
+The following list describes the changes by component:
+
+### bitergia-analytics-opensearch
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### bitergia-analytics-opensearch-dashboards
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### bitergia-analytics-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### dotplot-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### network-vis-plugin
+
+**New features:**
+
+ * Change label font size\
+   The font size for each type of node can be configured on the "size"
+   section of the "options" tab.
+
+### polar-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### radar-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### sortinghat-openinfra
+  
+  * Update Poetry's package dependencies
+
+
 ## Bitergia Analytics 0.16.2 - (2024-02-08)
 
 **Dependencies updateds:**

@@ -1,8 +1,0 @@
----
-title: GrimoireLab 0.21.0 upgrade
-category: added
-author: Jose Javier Merchante <jjmerchante@bitergia.com>
-issue: null
-notes: |
-  This new version of GrimoireLab includes organization
-  aliases in SortingHat to avoid duplicates.
