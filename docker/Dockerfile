@@ -12,4 +12,5 @@ LABEL org.opencontainers.image.authors="sduenas@bitergia.com"
 
 RUN sudo pip install perceval-public-inbox
 RUN sudo pip install perceval-topicbox
+RUN sudo pip install perceval-pontoon
 RUN sudo pip install bap-elk-backends
