@@ -1,5 +1,61 @@
 # Releases
 
+## Bitergia Analytics 0.18.0 - (2024-02-20)
+
+**New features:**
+
+ * Include perceval-pontoon package in BAP\
+   Include Pontoon Perceval backend in BAP release.
+
+
+
+The following list describes the changes by component:
+
+### bitergia-analytics-opensearch
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### bitergia-analytics-opensearch-dashboards
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### bitergia-analytics-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### dotplot-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### network-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### polar-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### radar-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### perceval-pontoon
+
+**New features:**
+
+ * Pontoon perceval backend\
+   New backend to collect translations from a Pontoon instance. It can be
+   executed using the following command:  `perceval pontoon <pontoon_url>
+   <locale>`
+
+
 ## Bitergia Analytics 0.17.0 - (2024-02-20)
 
 **New features:**

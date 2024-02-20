@@ -1,7 +1,0 @@
----
-title: Include perceval-pontoon package in BAP
-category: added
-author: Jose Javier Merchante <jjmerchante@bitergia.com>
-issue: null
-notes: >
-  Include Pontoon Perceval backend in BAP release.
