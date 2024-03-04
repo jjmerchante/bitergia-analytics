@@ -1,5 +1,73 @@
 # Releases
 
+## Bitergia Analytics 0.19.0 - (2024-03-04)
+
+**New features:**
+
+ * GrimoireLab 0.22.0 upgrade\
+   On this release, GrimoireLab allows to define dedicated queues for
+   SortingHat jobs. Also, SortingHat runs with Node 20, dropping the
+   support of versions 14-16.
+
+
+
+The following list describes the changes by component:
+
+### bitergia-analytics-opensearch
+
+**New features:**
+
+ * Add role to hide links to plugins\
+   Adds the 'bap_plugins_visibility' role, which hides links to plugins
+   for the user on OpenSearch Dashboards.
+
+### bitergia-analytics-opensearch-dashboards
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### bitergia-analytics-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### dotplot-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### network-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### polar-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### radar-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### perceval-public-inbox
+  
+  * Update Poetry's package dependencies
+
+### perceval-topicbox
+  
+  * Update Poetry's package dependencies
+
+### perceval-pontoon
+  
+  * Update Poetry's package dependencies
+
+### sortinghat-openinfra
+  
+  * Update Poetry's package dependencies
+
+
 ## Bitergia Analytics 0.18.0 - (2024-02-20)
 
 **New features:**
