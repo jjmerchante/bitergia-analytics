@@ -1,0 +1,10 @@
+---
+title: GrimoireLab 0.22.0 upgrade
+category: added
+author: Santiago Dueñas <sduenas@bitergia.com>
+issue: null
+notes: >
+  On this release, GrimoireLab allows to define
+  dedicated queues for SortingHat jobs. Also,
+  SortingHat runs with Node 20, dropping the support
+  of versions 14-16.
