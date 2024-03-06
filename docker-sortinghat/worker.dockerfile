@@ -1,6 +1,15 @@
 FROM grimoirelab/sortinghat-worker:0.22.0
 
-ADD settings.py /opt/venv/lib/python3.9/site-packages/sortinghat/config/settings.py
+COPY settings.py /opt/venv/lib/python3.9/site-packages/sortinghat/config/settings.py
 
 RUN . /opt/venv/bin/activate && \
     pip install sortinghat-openinfra
+
+USER root
+
+COPY worker-entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/worker-entrypoint.sh
+
+USER sortinghat
+
+ENTRYPOINT ["worker-entrypoint.sh"]
