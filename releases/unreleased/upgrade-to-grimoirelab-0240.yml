@@ -1,0 +1,13 @@
+---
+title: Upgrade to GrimoireLab 0.24.0
+category: dependency
+author: Santiago Dueñas <sduenas@bitergia.com>
+issue: null
+notes: >
+  GrimorieLab 0.24.0 includes a new version of Perceval
+  that allows to recover commits in the case the
+  process failed while fetching using the `--last-items`
+  option.
+  This new version also completes the migration of
+  SortingHat to Vue 3 and fixes some errors related
+  with its cache.
