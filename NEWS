@@ -1,5 +1,81 @@
 # Releases
 
+## Bitergia Analytics 0.19.2 - (2024-04-01)
+
+**Dependencies updateds:**
+
+ * Upgrade to GrimoireLab 0.24.0\
+   GrimorieLab 0.24.0 includes a new version of Perceval that allows to
+   recover commits in the case the process failed while fetching using
+   the `--last-items` option. This new version also completes the
+   migration of SortingHat to Vue 3 and fixes some errors related with
+   its cache.
+
+
+
+The following list describes the changes by component:
+
+### bitergia-analytics-opensearch
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### bitergia-analytics-opensearch-dashboards
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### bitergia-analytics-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### dotplot-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### network-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### polar-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### radar-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### perceval-public-inbox
+
+**Bug fixes:**
+
+ * Metadata information in Public Inbox\
+   Public inbox backend was using Git metadata, but in the last version,
+   it now includes information about the commit in the metadata. This
+   change avoid including this information in Public Inbox.
+
+### perceval-topicbox
+  
+  * Update Poetry's package dependencies
+
+### perceval-pontoon
+
+**Bug fixes:**
+
+ * Pontoon pagination updated\
+   Pontoon improved the pagination for performance. Integrate the recent
+   pagination enhancements in Perceval backend.
+
+### sortinghat-openinfra
+  
+  * Update Poetry's package dependencies
+
+
 ## Bitergia Analytics 0.19.1 - (2024-03-12)
 
 **Dependencies updateds:**
