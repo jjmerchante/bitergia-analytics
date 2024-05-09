@@ -1,4 +1,4 @@
-FROM grimoirelab/sortinghat-worker:1.0.0
+FROM grimoirelab/sortinghat-worker:1.1.0
 
 COPY settings.py /opt/venv/lib/python3.9/site-packages/sortinghat/config/settings.py
 
