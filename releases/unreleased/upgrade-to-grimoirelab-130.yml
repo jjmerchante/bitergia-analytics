@@ -1,0 +1,12 @@
+---
+title: Upgrade to GrimoireLab 1.3.0
+category: added
+author: Jose Javier Merchante <jjmerchante@bitergia.com>
+issue: null
+notes: >
+  GrimoireLab 1.3.0 includes enhancements and fixes.
+  Save LinkedIn URLs and link GitHub usernames in SortingHat.
+  Assign SortingHat users to default permission groups: admin, user, readonly.
+  Consistent time format across SortingHat.
+  Fixed Git branches study bug misassigning branches.
+
