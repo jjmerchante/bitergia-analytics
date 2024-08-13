@@ -1,0 +1,10 @@
+---
+title: Upgrade GrimoireLab to 1.4.1
+category: fixed
+author: Santiago Dueñas <sduenas@bitergia.com>
+issue: null
+notes: >
+  GrimoireLab 1.4.1 fixes an important bug when enritching
+  indenties data. The previous version crashed the service
+  enritching data of datasources such as GitLab, Slack,
+  or StackExchange.
