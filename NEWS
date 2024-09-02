@@ -1,5 +1,93 @@
 # Releases
 
+## Bitergia Analytics 0.22.0 - (2024-09-02)
+
+**New features:**
+
+ * Upgrade to GrimoireLab 1.5.0\
+   GrimoireLab 1.5.0 introduces the ability to delete merge
+   recommendations, merge organizations with matching aliases, and assign
+   tenant-specific permissions. It also fixes GitHub link duplicates,
+   connection issues, Git tag deletions, and reduces database
+   connections.
+
+
+
+The following list describes the changes by component:
+
+### bitergia-analytics-opensearch
+
+**Dependencies updateds:**
+
+ * Upgrade to OpenSearch Dashboards 2.16\
+   OpenSearch Dashboards 2.16 fixes an issue with the colors of the
+   visualizations when there are more than 10 items.
+
+### bitergia-analytics-opensearch-dashboards
+
+**Dependencies updateds:**
+
+ * Upgrade to OpenSearch Dashboards 2.16\
+   OpenSearch Dashboards 2.16 fixes an issue with the colors of the
+   visualizations when there are more than 10 items.
+
+### bitergia-analytics-plugin
+
+**Dependencies updateds:**
+
+ * Upgrade to OpenSearch Dashboards 2.16\
+   OpenSearch Dashboards 2.16 fixes an issue with the colors of the
+   visualizations when there are more than 10 items.
+
+### dotplot-vis-plugin
+
+**Dependencies updateds:**
+
+ * Upgrade to OpenSearch Dashboards 2.16\
+   OpenSearch Dashboards 2.16 fixes an issue with the colors of the
+   visualizations when there are more than 10 items.
+
+### network-vis-plugin
+
+**Dependencies updateds:**
+
+ * Upgrade to OpenSearch Dashboards 2.16\
+   OpenSearch Dashboards 2.16 fixes an issue with the colors of the
+   visualizations when there are more than 10 items.
+
+### polar-vis-plugin
+
+**Dependencies updateds:**
+
+ * Upgrade to OpenSearch Dashboards 2.16\
+   OpenSearch Dashboards 2.16 fixes an issue with the colors of the
+   visualizations when there are more than 10 items.
+
+### radar-vis-plugin
+
+**Dependencies updateds:**
+
+ * Upgrade to OpenSearch Dashboards 2.16\
+   OpenSearch Dashboards 2.16 fixes an issue with the colors of the
+   visualizations when there are more than 10 items.
+
+### perceval-public-inbox
+  
+  * Update Poetry's package dependencies
+
+### perceval-topicbox
+  
+  * Update Poetry's package dependencies
+
+### perceval-pontoon
+  
+  * Update Poetry's package dependencies
+
+### sortinghat-openinfra
+  
+  * Update Poetry's package dependencies
+
+
 ## Bitergia Analytics 0.21.2 - (2024-08-13)
 
 **Bug fixes:**
