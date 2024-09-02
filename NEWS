@@ -1,5 +1,50 @@
 # Releases
 
+## Bitergia Analytics 0.22.1 - (2024-09-02)
+
+
+
+The following list describes the changes by component:
+
+### bitergia-analytics-opensearch
+
+**Bug fixes:**
+
+ * `opensearch-skills` plugin removed\
+   Remove `opensearch-skills` plugin, which depends on the `opensearch-
+   ml` plugin that has been removed.
+
+### bitergia-analytics-opensearch-dashboards
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### bitergia-analytics-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### dotplot-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### network-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### polar-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### radar-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+
 ## Bitergia Analytics 0.22.0 - (2024-09-02)
 
 **New features:**
