@@ -1,8 +1,0 @@
----
-title: Worker entrypoint fixed
-category: fixed
-author: Jose Javier Merchante <jjmerchante@bitergia.com>
-issue: 93
-notes: >
-  Updated the Docker container for the worker to load
-  custom BAP settings.
