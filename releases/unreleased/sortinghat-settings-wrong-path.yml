@@ -1,0 +1,9 @@
+---
+title: SortingHat settings wrong path
+category: fixed
+author: null
+issue: null
+notes: >
+  SortingHat is now using a different version of Python,
+  and the settings were imported to the wrong path.
+  The path has now been corrected.
