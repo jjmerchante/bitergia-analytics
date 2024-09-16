@@ -14,3 +14,10 @@ from sortinghat.config.settings import *  # noqa: F403,F401
 
 OPENINFRA_CLIENT_ID = os.environ.get('SORTINGHAT_OPENINFRA_CLIENT_ID', None)
 OPENINFRA_CLIENT_SECRET = os.environ.get('SORTINGHAT_OPENINFRA_CLIENT_SECRET', None)
+
+#
+# Trusted data sources for matching by username
+#
+
+MATCH_TRUSTED_SOURCES = os.environ.get('SORTINGHAT_MATCH_TRUSTED_SOURCES',
+                                       'github,gitlab,slack,openinfra').split(',')
