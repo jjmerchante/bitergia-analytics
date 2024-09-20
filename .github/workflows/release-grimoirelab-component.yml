@@ -65,10 +65,10 @@ jobs:
           path: ${{ inputs.module_directory }}
           token: '${{ secrets.access_token }}'
 
-      - name: Set up Python 3.8
+      - name: Set up Python 3.9
         uses: actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d # v5.1.0
         with:
-          python-version: 3.8
+          python-version: 3.9
 
       - name: Set up Git config
         run: |
