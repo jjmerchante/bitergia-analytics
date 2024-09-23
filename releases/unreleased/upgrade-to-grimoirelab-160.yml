@@ -1,0 +1,14 @@
+---
+title: Upgrade to GrimoireLab 1.6.0
+category: dependency
+author: Jose Javier Merchante <jjmerchante@bitergia.com>
+issue: null
+notes: >
+  GrimoireLab 1.6.0 improves SortingHat with less
+  distracting main identity indicator, redirect to
+  the original URL after login, merge organizations
+  when adding an alias, customizable trusted sources,
+  fixes UNDEFINED values in author fields, add status
+  field to Sumo index, and updates the minimum version
+  of Python to 3.9.
+  See GrimoireLab release notes for more information.
