@@ -1,5 +1,98 @@
 # Releases
 
+## Bitergia Analytics 0.23.0 - (2024-09-23)
+
+**New features:**
+
+ * Openinfra trusted source for matching\
+   Include Openinfra backend as a trusted source for matching by username
+   by default.
+
+**Dependencies updateds:**
+
+ * Upgrade to GrimoireLab 1.6.0\
+   GrimoireLab 1.6.0 improves SortingHat with less distracting main
+   identity indicator, redirect to the original URL after login, merge
+   organizations when adding an alias, customizable trusted sources,
+   fixes UNDEFINED values in author fields, add status field to Sumo
+   index, and updates the minimum version of Python to 3.9. See
+   GrimoireLab release notes for more information.
+ * Python version updated to 3.9\
+   Python 3.8 will reach its end of life in October 2024. Python 3.9 is
+   the minimum version required by the project.
+
+
+
+The following list describes the changes by component:
+
+### bitergia-analytics-opensearch
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### bitergia-analytics-opensearch-dashboards
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### bitergia-analytics-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### dotplot-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### network-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### polar-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### radar-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### perceval-public-inbox
+
+**Dependencies updateds:**
+
+ * Python minimum version updated\
+   Python 3.8 will reach its end of life in October 2024. Python 3.9 is
+   the minimum version required by the project.
+
+### perceval-topicbox
+
+**Dependencies updateds:**
+
+ * Python minimum version updated\
+   Python 3.8 will reach its end of life in October 2024. Python 3.9 is
+   the minimum version required by the project.
+
+### perceval-pontoon
+
+**Dependencies updateds:**
+
+ * Python minimum version updated\
+   Python 3.8 will reach its end of life in October 2024. Python 3.9 is
+   the minimum version required by the project.
+
+### sortinghat-openinfra
+
+**Dependencies updateds:**
+
+ * Python minimum version updated\
+   Python 3.8 will reach its end of life in October 2024. Python 3.9 is
+   the minimum version required by the project.
+
+
 ## Bitergia Analytics 0.22.3 - (2024-09-03)
 
 **Bug fixes:**
