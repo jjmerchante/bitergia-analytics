@@ -1,5 +1,71 @@
 # Releases
 
+## Bitergia Analytics 0.25.1 - (2024-12-11)
+
+**Dependencies updateds:**
+
+ * Upgrade to GrimoireLab 1.9.0\
+   GrimoireLab 1.9.0 improves SortingHat allowing to skip
+   recommendations, sorting organizations by number of enrollments, and
+   improves Perceval performance when the '--latest-items' flag is
+   enabled. See GrimoireLab release notes for more information.
+
+
+
+The following list describes the changes by component:
+
+### bitergia-analytics-opensearch
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### bitergia-analytics-opensearch-dashboards
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### bitergia-analytics-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### dotplot-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### network-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### polar-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### radar-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### perceval-public-inbox
+  
+  * Update Poetry's package dependencies
+
+### perceval-topicbox
+  
+  * Update Poetry's package dependencies
+
+### perceval-pontoon
+  
+  * Update Poetry's package dependencies
+
+### sortinghat-openinfra
+  
+  * Update Poetry's package dependencies
+
+
 ## Bitergia Analytics 0.25.0 - (2024-11-14)
 
 **New features:**
