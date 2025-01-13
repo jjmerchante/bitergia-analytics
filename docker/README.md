@@ -20,7 +20,7 @@ GrimoireLab, including all libraries and programs.
 The image will run the GrimoireLab orchestrator - sirmordred - by default. This
 needs a `setup.cfg` and a `projects.json` file. You can find more
 information about how to define these two files either on the
-[GrimoireLab](https://github.com/chaoss/grimoirelab/tree/master/docker) or
+[GrimoireLab](https://github.com/chaoss/grimoirelab/tree/main/docker) or
 [Sir Mordred](https://github.com/chaoss/grimoirelab-sirmordred) repositories
 
 You will also need the Bitergia Analytics Opensearch, Opensearch Dashboards, and
