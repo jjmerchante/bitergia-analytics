@@ -1,5 +1,75 @@
 # Releases
 
+## Bitergia Analytics 0.26.0 - (2025-01-21)
+
+**New features:**
+
+ * Upgrade to GrimoireLab 1.9.2\
+   GrimoireLab 1.9.2 updates the packages. See GrimoireLab release notes
+   for more information.
+
+
+
+The following list describes the changes by component:
+
+### bitergia-analytics-opensearch
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### bitergia-analytics-opensearch-dashboards
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### bitergia-analytics-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### dotplot-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### network-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### polar-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### radar-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### perceval-public-inbox
+  
+  * Update Poetry's package dependencies
+
+### perceval-topicbox
+  
+  * Update Poetry's package dependencies
+
+### perceval-pontoon
+
+**New features:**
+
+ * User actions support for Pontoon API\
+   A new category has been added to the Pontoon backend, allowing the
+   collection of user actions via the Pontoon API. To use this feature,
+   specify the target project and provide a valid session ID as
+   parameters.
+
+### sortinghat-openinfra
+  
+  * Update Poetry's package dependencies
+
+
 ## Bitergia Analytics 0.25.1 - (2024-12-11)
 
 **Dependencies updateds:**
