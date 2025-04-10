@@ -1,5 +1,74 @@
 # Releases
 
+## Bitergia Analytics 0.27.0 - (2025-04-10)
+
+**New features:**
+
+ * Upgrade to GrimoireLab 1.10.0\
+   Sortinghat now shows usernames and emails in recommendations for
+   easier comparison, includes clearer action labels, and security
+   session cookies has a 30-minute inactivity timeout. New icons have
+   been added for some datasources, and a bug with affiliation order has
+   been fixed. Perceval now support Python 3.13 and raises an exception
+   when using NNTP on Python > 3.13 due to nntplib removal. See
+   GrimoireLab release notes for more information.
+
+
+
+The following list describes the changes by component:
+
+### bitergia-analytics-opensearch
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### bitergia-analytics-opensearch-dashboards
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### bitergia-analytics-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### dotplot-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### network-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### polar-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### radar-vis-plugin
+  
+  * No changes on this component. The version is bumped to align it
+    with the rest of the components.
+
+### perceval-public-inbox
+  
+  * Update Poetry's package dependencies
+
+### perceval-topicbox
+  
+  * Update Poetry's package dependencies
+
+### perceval-pontoon
+  
+  * Update Poetry's package dependencies
+
+### sortinghat-openinfra
+  
+  * Update Poetry's package dependencies
+
+
 ## Bitergia Analytics 0.26.0 - (2025-01-21)
 
 **New features:**
