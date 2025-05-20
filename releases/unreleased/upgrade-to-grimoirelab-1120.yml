@@ -1,0 +1,12 @@
+---
+title: Upgrade to GrimoireLab 1.12.0
+category: added
+author: Jose Javier Merchante <jjmerchante@bitergia.com>
+issue: null
+notes: >
+  GrimoireLab 1.12.0 fixes an issue with GitHub incremental collection
+  that was not working correctly. It also resolves a SortingHat issue
+  where, in some cases, the affiliation dates shown in the UI differed
+  from those entered in the edit form. This release adds features like
+  the ability to link a user's LinkedIn profile using the full URL.
+  See the GrimoireLab release notes for full details.
