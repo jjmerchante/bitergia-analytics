@@ -1,0 +1,12 @@
+---
+title: Upgrade to GrimoireLab 1.13.0
+category: added
+author: Jose Javier Merchante <jjmerchante@bitergia.com>
+issue: null
+notes: >
+  GrimoireLab 1.13.0 addresses several issues. Incorrect behavior
+  in enrich tasks using from-date, a Perceval bug detecting moved
+  files in Git stats, and a malfunctioning affiliation calendar in
+  SortingHat.
+  Additionally, this release introduces a new feature that shows
+  the history of profile changes in SortingHat.
