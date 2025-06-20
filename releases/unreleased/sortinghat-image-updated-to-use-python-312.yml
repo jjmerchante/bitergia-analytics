@@ -1,0 +1,8 @@
+---
+title: SortingHat image updated to use Python 3.12
+category: fixed
+author: Jose Javier Merchante <jjmerchante@bitergia.com>
+issue: null
+notes: >
+  Update the BAP SortingHat image to use Python 3.12 when
+  copying the bap settings.
