@@ -1,0 +1,10 @@
+---
+title: Upgrade to GrimoireLab 1.14.1
+category: fixed
+author: Jose Javier Merchante <jjmerchante@bitergia.com>
+issue: null
+notes: >
+  GrimoireLab 1.14.1 updates the base version of the containers
+  to Python 3.12 and Debian 12. It also fixes some deprecation
+  warnings in the code.
+
