@@ -385,6 +385,23 @@ jobs:
     secrets:
       access_token: ${{ secrets.BAP_BUILD_TOKEN }}
 
+  sortinghat-eclipse-foundation:
+    name: sortinghat-eclipse-foundation
+    needs:
+      - variables-job
+      - setup
+      - semverup
+    uses: ./.github/workflows/release-grimoirelab-component.yml
+    with:
+      git_email: ${{ needs.variables-job.outputs.git_email }}
+      git_name: ${{ needs.variables-job.outputs.git_name }}
+      release_candidate: ${{ needs.variables-job.outputs.release_candidate }}
+      module_name: 'sortinghat-eclipse-foundation'
+      module_repository: 'bitergia-analytics/sortinghat-eclipse-foundation'
+      module_directory: 'sortinghat-eclipse-foundation'
+    secrets:
+      access_token: ${{ secrets.BAP_BUILD_TOKEN }}
+
   bitergia-analytics:
     name: Bitergia Analytics
     runs-on: ubuntu-latest
@@ -405,6 +422,7 @@ jobs:
       - perceval-pontoon
       - bap-elk-backends
       - sortinghat-openinfra
+      - sortinghat-eclipse-foundation
     steps:
       - name: Checkout source code
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
@@ -443,6 +461,7 @@ jobs:
           perceval_pontoon_notes: "${{ needs.perceval-pontoon.outputs.notes }}"
           bap_elk_backends_notes: "${{ needs.bap-elk-backends.outputs.notes }}"
           sortinghat_openinfra_notes: "${{ needs.sortinghat-openinfra.outputs.notes }}"
+          sortinghat_eclipse_foundation_notes: "${{ needs.sortinghat-eclipse-foundation.outputs.notes }}"
         run: |
           version=${{ needs.semverup.outputs.version }}
           eof="EOF$(date +%s)"
@@ -481,6 +500,7 @@ jobs:
           $perceval_pontoon_notes
           $bap_elk_backends_notes
           $sortinghat_openinfra_notes
+          $sortinghat_eclipse_foundation_notes
           $eof
 
           cat $release_file
@@ -501,6 +521,7 @@ jobs:
           notes_perceval_pontoon: "${{ needs.perceval-pontoon.outputs.notes }}"
           notes_bap_elk_backends: "${{ needs.bap-elk-backends.outputs.notes }}"
           notes_sortinghat_openinfra: "${{ needs.sortinghat-openinfra.outputs.notes }}"
+          notes_sortinghat_eclipse_foundation: "${{ needs.sortinghat-eclipse-foundation.outputs.notes }}"
         run: |
           version=${{ needs.semverup.outputs.version }}
           news_file="NEWS"
@@ -520,7 +541,8 @@ jobs:
           perceval_topicbox
           perceval_pontoon
           notes_bap_elk_backends
-          sortinghat_openinfra)
+          sortinghat_openinfra
+          sortinghat_eclipse_foundation)
           
           mv $news_file $old_news
           touch $news_file $new_notes
