@@ -16,6 +16,13 @@ OPENINFRA_CLIENT_ID = os.environ.get('SORTINGHAT_OPENINFRA_CLIENT_ID', None)
 OPENINFRA_CLIENT_SECRET = os.environ.get('SORTINGHAT_OPENINFRA_CLIENT_SECRET', None)
 
 #
+# Eclipse Foundation keys
+#
+
+ECLIPSE_FOUNDATION_USER_ID = os.environ.get('SORTINGHAT_ECLIPSE_FOUNDATION_USER_ID', None)
+ECLIPSE_FOUNDATION_PASSWORD = os.environ.get('SORTINGHAT_ECLIPSE_FOUNDATION_PASSWORD', None)
+
+#
 # Trusted data sources for matching by username
 #
 
